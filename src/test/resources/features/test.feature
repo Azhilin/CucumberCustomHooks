@@ -1,9 +1,10 @@
 @Feature1
 Feature: Test feature
 
-  Background: Common steps
+  Background: Preconditions
     Given Do the precondition
     When Do the action
+    And Set number of scenarios 4 and finish preconditions
 
   Scenario: Scenario1
     Then Do the verification
@@ -12,7 +13,7 @@ Feature: Test feature
     Then Do the verification
 
   Scenario: Scenario3
-        Then Do the verification
+    Then Do the verification
 
   Scenario: Scenario4
-      Then Do the verification
+    Then Do the verification
